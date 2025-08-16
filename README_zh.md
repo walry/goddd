@@ -29,3 +29,28 @@
 ├── go.sum               # 模块校验和
 ├── LICENSE              # 项目许可证
 └── main.go              # 应用主入口
+```
+
+## 🛠️ 快速开始
+1. 安装依赖
+   ```bash
+   go mod download
+   ```
+2. 启动服务
+   ```bash
+   go run main.go
+   ```
+
+## 🤝 贡献指南
+欢迎通过PR贡献代码：
+
+1. 创建特性分支（feature/your-feature）
+
+2. 保持Go代码风格一致（使用gofmt）
+
+3. 添加必要的单元测试
+
+4. 更新相关文档
+
+## 📄 许可证
+
