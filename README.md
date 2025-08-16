@@ -29,3 +29,27 @@ Initial project skeleton for Domain-Driven Design (DDD) in Go, featuring core la
 ├── go.sum               # Dependency Checksums
 ├── LICENSE              # Project License
 └── main.go              # Application Entrypoint
+```
+
+## 🛠️ Quick Start
+1. Install Dependencies
+    ```bash
+    go mod download
+    ```
+2. Start Service
+    ```bash
+   go run main.go
+    ```
+   
+## 🤝 Contributing
+We welcome contributions via PRs:
+
+1. Create feature branch (feature/your-feature)
+
+2. Maintain consistent Go style (use gofmt)
+
+3. Include relevant unit tests
+
+4. Update documentation accordingly
+
+## 📄 License
