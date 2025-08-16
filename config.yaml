@@ -1,0 +1,27 @@
+app:
+  service_name: youras
+  port: 8096
+  gin_mode: release
+
+database:
+  host: 192.168.1.6
+  port: 5432
+  username: postgres
+  password: pg123!@#
+  database: youras
+  max_idle: 100
+  max_conn: 100
+  max_life: 7200
+  migration_table: youras_migrations
+
+log:
+  path: logs
+  max_size: 30
+  max_backups: 14
+  max_age: 7
+  compress: false
+  level: 0
+  console_debug: true
+  gorm_log_level: 3
+  slow_threshold: 200
+  ignore_record_not_found: true
